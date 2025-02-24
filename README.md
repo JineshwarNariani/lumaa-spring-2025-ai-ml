@@ -23,8 +23,14 @@ This project is a simple content-based recommendation system that suggests items
   python recommend.py "Some user description"
   
 - **Resuts:**
-  ```markdown ## Results When the system is run with a sample query, such as: ``` python3 recommend.py "I love thrilling action movies set in space, with a comedic twist." ``` The system processes the description and recommends the top 5 movies with the closest match based on cosine similarity. For instance, with this query, the output might look like the following: ``` Recommendations: Title similarity 509 Gravity 0.146386 112 The Bad Batch 0.142542 511 Shooter 0.135688 564 Snow White and the Huntsman 0.128283 28 Bad Moms 0.120557 ``` ### Explanation: - **Title**: The names of the recommended movies. - **Similarity**: The cosine similarity score between the user's query and the movie descriptions. Higher values indicate better matches. These recommendations are derived by comparing the user's query with the movie descriptions using the TF-IDF vectorization technique, followed by calculation of cosine similarity. ``` This provides a concise example of the output when the system is run with a sample query.
+
+  When the system is run with a sample query, such as: ``` python3 recommend.py "I love thrilling action movies set in space, with a comedic twist." ``` The system processes the description and recommends the top 5 movies with the closest match based on cosine similarity.
+
+  For instance, with this query, the output might look like the following: ``` Recommendations: Title similarity 509 Gravity 0.146386 112 The Bad Batch 0.142542 511 Shooter 0.135688 564 Snow White and the Huntsman 0.128283 28 Bad Moms 0.120557 ```
+
+**Similarity**: The cosine similarity score between the user's query and the movie descriptions. Higher values indicate better matches. These recommendations are derived by comparing the user's query with the movie descriptions using the TF-IDF vectorization technique, followed by calculation of cosine similarity. ``` This provides a concise example of the output when the system is run with a sample query.
+
 - **Salary Expectation per month**
-- 
+  
   Atleast $25 an hour so $4000 per month. 
 
