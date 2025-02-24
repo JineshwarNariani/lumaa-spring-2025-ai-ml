@@ -28,7 +28,7 @@ This project is a simple content-based recommendation system that suggests items
 
   For instance, with this query, the output might look like the following: ``` Recommendations: Title similarity 509 Gravity 0.146386 112 The Bad Batch 0.142542 511 Shooter 0.135688 564 Snow White and the Huntsman 0.128283 28 Bad Moms 0.120557 ```
 
-Similarity: The cosine similarity score between the user's query and the movie descriptions. Higher values indicate better matches. These recommendations are derived by comparing the user's query with the movie descriptions using the TF-IDF vectorization technique, followed by calculation of cosine similarity. ``` This provides a concise example of the output when the system is run with a sample query.
+  Similarity: The cosine similarity score between the user's query and the movie descriptions. Higher values indicate better matches. These recommendations are derived by comparing the user's query with the movie descriptions using the TF-IDF vectorization technique, followed by calculation of cosine similarity. ``` This provides a concise example of the output when the system is run with a sample query.
 
 - **Salary Expectation per month**
   
